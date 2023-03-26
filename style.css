@@ -1,3 +1,9 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
 body{
     margin: 0;
     text-align: center;
@@ -5,6 +11,7 @@ body{
 }
 /*  Jay likha huya hai nah   */
 h1 {
+    color: #66BFBF;
     margin-top: 0;
     position: relative; 
     bottom: 20px;   
@@ -32,13 +39,18 @@ h1 {
     position: relative;
     top: 40px;
 }
-
+/* the top div that hold the mountain and clouds  */
 .Jay {
+
     background: #E4F9F5;
     padding-top: 186px;
 
 }
+
+
 strong{
+    color: #66BFBF;
+
     position: relative;
     top: 111px;
     letter-spacing: 1px;
@@ -55,15 +67,69 @@ strong{
 .profile-img{
     height: 335px;
 }
+h2{
+    color: #11999E;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+
+
+}
+h3{
+    color: #11999E;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 30px;
+}
+p{
+
+    line-height: 2;
+    
+
+}
 
 .middle-container {
-    
+                
 
 }
 .bottom-container { 
 
     
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+
 .skill-img{
     height: 350px;
+    margin-right: 30px;
+    float: left;
+
+}
+
+.hacker-img{
+    margin-left: 30px;
+    float: right;
+}
+
+
+
+
+
+
+.contact-me{
+    margin: 0;
+}
+
+.hr{
+    margin: 0;
+}
+
+.fotter{
+    margin: 0;
+    padding: 40px;
+    background: #66BFBF;
+    border-radius: 5px;
 }
